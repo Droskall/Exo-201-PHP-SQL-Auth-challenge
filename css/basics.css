@@ -1,5 +1,49 @@
+
 label, select, input{
-  width: 150px;
-  display: inline-block;
-  margin: 5px 0;
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  margin: 10px auto;
+  font-size: 25px;
+  align-items: center;
+}
+
+#enter {
+  background-color: #341401;
+  color: white;
+  border-radius: 5px 5px;
+  border: none;
+  padding: 3px 0;
+}
+
+a {
+  color: #341401;
+  text-decoration: none;
+}
+
+td > a:hover {
+  text-decoration: underline black;
+}
+
+body{
+  background: #FFBB3F;
+  font-family: Calibri, sans-serif;
+  color: #341401;
+}
+
+th {
+  text-align: left;
+  padding: 10px;
+  font-size: 20px;
+  border: 1px solid black
+}
+
+td {
+  padding: 10px;
+  border: 1px solid black;
+  text-align: center;
+}
+
+.fas:hover {
+  color: lightgray;
 }
